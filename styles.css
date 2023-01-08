@@ -17,13 +17,15 @@ body {
 
 /* flexbox */
 body,
-#container {
+#container,
+.header {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#container {
+#container,
+.header {
   flex-direction: column;
 }
 
@@ -51,10 +53,19 @@ body,
 
 /* general styles */
 #container {
+  position: relative;
   width: 80vw;
+  min-width: 430px;
+  max-width: 750px;
   height: 80vh;
+  max-height: 650px;
   border: 0.5em solid darkcyan;
   border-radius: 0.3em;
+}
+
+.header {
+  position: absolute;
+  top: 2em;
 }
 
 .title {
@@ -75,5 +86,6 @@ body,
   }
 
 #quote {
+  max-width: 650px;
   padding: 1em 1.3em;
 }
