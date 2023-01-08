@@ -46,7 +46,7 @@ body,
 
 #quote {
   font-family: 'Style Script', cursive;
-  font-size: 2.3em;
+  font-size: 1.8em;
 }
 
 /* general styles */
@@ -75,5 +75,5 @@ body,
   }
 
 #quote {
-  margin-top: 0.5em;
+  padding: 1em 1.3em;
 }
